@@ -1,0 +1,1 @@
+export const NavPills = ['Home', 'Services', 'Login', 'Registration']

@@ -1,0 +1,46 @@
+.containerbg{
+    margin-top:100px;
+    background-color:lightgray;
+    padding:30px;
+    margin-bottom:100px;
+}
+.labelpara{
+    font-weight: bold;
+    font-size: 15px;
+}
+input[type=text]{
+    width:100%;
+    padding:5px;
+    margin-bottom: 35px;
+    outline:none;
+}
+input[type=button]{
+    width:200px;
+    padding:10px;
+    background-color: blue;
+    border-radius: 10px; 
+    color:white;
+    outline:none;
+}
+ul{
+    list-style-type: none;
+}
+.divlisthead{
+    background-color: gray;
+    margin:10px;
+    width:90%;
+    padding:10px;
+    margin:0px;
+    border-radius: 5px;
+    color:Black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.divlistitem{
+    background-color: white;
+    margin:10px;
+    width:90%;
+    padding:10px;
+    margin:0px 0px 20px 0px;
+    color:Blue;
+}

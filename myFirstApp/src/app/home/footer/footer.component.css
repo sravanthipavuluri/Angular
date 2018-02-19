@@ -1,0 +1,103 @@
+.jobtxt{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    font-size: 25px;
+}
+.footerlinktxt{
+    color:black;
+    font-size: 14px;
+
+}
+.footertxt{
+    text-align: right;
+}
+.sitelinksbox{
+    width:230px;
+    margin-left:50px;
+    margin-bottom: 80px;
+    padding: 15px;
+}
+.sitelinksbox ul{
+    list-style-type: none;
+    line-height: 35px;
+}
+.sitelinksbox ul li a{
+    color:gray;
+}
+@media screen and (max-width: 500px) {
+    .mousecls{
+        font-size:40px;
+        background: transparent;
+        padding-top:150px;
+        padding-bottom:10px;
+        color:#E1A1A1;
+    }
+    .headertxt{
+        margin-top:80px;
+        margin-left: 30px;
+        color: white;
+    }
+    .headbannerparatxt{
+        font-size: 1px;
+    }
+    .jobtxt{
+        background-color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 30px;
+        font-size: 15px;
+    }
+    .Genheadtxt{
+        color:#E1A1A1;
+        font-size: 36px;
+        letter-spacing: 5px;
+        margin-top: 10px;
+    }
+    .regmargin{
+        margin-top: 100px;
+    }
+    .footerlinktxt{
+        text-align: left;
+
+    }
+    .footertxt{
+        text-align: left;
+    }
+    .aboutheadpara{
+        font-size: 15px;
+    }
+    .aboutmargins{
+        width:350px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .aboutmargins1{
+        width:350px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        float:left;
+    }
+    .aboutmargins2{
+        width:350px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        float:left;
+    }
+    .aboutsubpara{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+    .contactpara{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 15px;
+        word-spacing: 2px;
+    }
+    .contactPara{
+      font-size: 15px;
+      margin-bottom: 30px;
+  }
+} 

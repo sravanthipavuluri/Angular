@@ -1,0 +1,7 @@
+providers: [
+    BackendService,
+    HeroService,
+    Logger
+  ]
+
+  

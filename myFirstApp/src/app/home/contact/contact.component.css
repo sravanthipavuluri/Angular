@@ -1,0 +1,94 @@
+.genheadtext{
+    color:#E1A1A1;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+.aboutmargins1{
+    width:500px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    float:left;
+}
+.aboutmargins2{
+    width:500px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    float:right;
+}
+.contactpara{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+.fa:hover {
+    opacity: 0.5;
+  }
+  .fa {
+      padding: 10px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 40px 30px 0px 0px;
+      border-radius: 60px;
+    }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    }
+    
+    .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    }
+    .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    
+    }
+    .contactinputborder{
+        border: none;
+        border-bottom: 1px solid gray;
+      }
+      .regbtnGen{ 		
+        padding:10px 20px 10px 20px;
+        color: white;
+        letter-spacing: 1px;
+        font-size: 15px;
+        border-radius: 50px;
+        background-color: #E1A1A1;
+        border:0px;
+        outline:none;
+    }
+    .contactSubmit{
+        margin: 40px 100px 0px 0px;
+      }
+@media screen and (max-width: 500px) {
+    .genheadtext{
+        color:#E1A1A1;
+        font-size: 36px;
+        letter-spacing: 5px;
+        margin-top: 10px;
+    }
+    .aboutmargins1{
+        width:350px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        float:left;
+    }
+    .aboutmargins2{
+        width:350px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        float:left;
+    }
+    .contactpara{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 15px;
+        word-spacing: 2px;
+    }
+}

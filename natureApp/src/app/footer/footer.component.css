@@ -1,0 +1,34 @@
+.jobtxt{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    font-size: 25px;
+    color:white;
+}
+.footertxt{
+    text-align: right;
+}
+.footerlinktxt{
+    text-align: left;
+    color:white;
+    font-size: 14px;
+}
+@media screen and (max-width: 500px) {
+    .jobtxt{
+        background-color: black;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 30px;
+        font-size: 15px;
+        color:white;
+    }
+    .footertxt{
+        text-align: left;
+    }
+    .footerlinktxt{
+        color:white;
+        font-size: 14px;
+
+    }
+}

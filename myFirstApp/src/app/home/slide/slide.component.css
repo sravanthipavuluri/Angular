@@ -1,0 +1,14 @@
+.Genheadtxt{
+    color:#E1A1A1;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 500px) {
+    .Genheadtxt{
+        color:#E1A1A1;
+        font-size: 36px;
+        letter-spacing: 5px;
+        margin-top: 10px;
+    }
+}

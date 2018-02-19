@@ -1,0 +1,48 @@
+<!-- <div class="container-fluid" style="background-color:black;">
+    <div class="row">
+        <div class="col-md-12"> -->
+          <nav class="navbar navbar-inverse navbar-right navbarcls" >
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle bgcls" data-toggle="collapse" data-target="#navbarSupportedContent">
+                            <span class="icon-bar bgclsrule"></span>
+                            <span class="icon-bar bgclsrule"></span>
+                            <span class="icon-bar bgclsrule"></span>                        
+                            </button>
+                        </div>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="nav navbar-nav" id="navlistul">
+                                    <!-- <li><a><img src="assets/images/logo.png" class="imgcls"></a></li> -->
+                                    <li *ngFor="let element of navPills" (click)="loadPage(element)">
+                                    <a href="#">{{element}} <span class="sr-only">(current)</span></a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                        <div *ngIf="pageName == 'home'">
+                            <app-home></app-home>
+                        </div>
+                        <div *ngIf="pageName == 'services'">
+                            <app-services></app-services>
+                        </div>
+                        <div *ngIf="pageName == 'login'">
+                            <app-login></app-login>
+                        </div>
+                        <div *ngIf="pageName == 'registration'">
+                            <app-registration></app-registration>
+                        </div>
+                </div>
+            </div>
+        </div> -->
+    
+    <!-- </div>
+</div>
+</div> -->
