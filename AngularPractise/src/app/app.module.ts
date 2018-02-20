@@ -9,6 +9,9 @@ import { ServicesComponent } from './services/services.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
+import { ServerEditComponent } from './server-edit/server-edit.component';
+import { ServerSearchComponent } from './server-search/server-search.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
@@ -19,11 +22,14 @@ import { HomeComponent } from './home/home.component';
     ServicesComponent,
     RegistrationComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    ServerEditComponent,
+    ServerSearchComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

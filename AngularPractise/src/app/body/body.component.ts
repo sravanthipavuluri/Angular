@@ -10,24 +10,22 @@ export class BodyComponent implements OnInit {
   listItems:any=[];
   name:string;
   content:string;
-  constructor() { }
+  constructor() { 
+    this.listItems = [
+      {
+        type: "Server",
+        name : "Dummy server",
+        content : "http://localhost:4200"
+      }
+    ]
+  }
 
   ngOnInit() {
   }
 
-  AddItem(chkfrom:string):void{
-    this.listItems.push({
-      type : chkfrom,
-      name : this.name,
-      content : this.content
-    });
-
-
-      // if(chkfrom=="server"){
-      //   this.listItems.push("Server : "+this.name+this.content);
-      // }else{
-      //   this.listItems.push("Print Server : "+this.name+this.content);
-      // }
+  addServer(event:any):void{
+    console.log(event)
+    this.listItems.push(event);
   }
 
 }

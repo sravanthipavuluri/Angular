@@ -4,30 +4,11 @@
     <div class="col-md-12">
           <div class="container containerbg">
              <div class="row">
-                <div class="col-md-12">
-                  <p class="labelpara">Server Name</p>
-                  <input type="text" [(ngModel)]="name">
-                  <p class="labelpara">Server Content</p>
-                  <input type="text" [(ngModel)]="content">
-                  <input type="button" (click)="AddItem('Server')" value="Add Server">
-                  <input type="button" (click)="AddItem('Print Server')" value="Add Blue Print Server">
-                </div>
+                <app-server-edit (serverAdded)="addServer($event)"></app-server-edit>
              </div>
              <div class="row containerbg">
-               <div class="container">
-                 <div class="row">
-                   <!-- <div class="col-md-12" *ngFor="let litem of listItems">
-                        <div class="divlisthead">{{litem.addedfrm}}</div>
-                        <div class="divlistitem">{{litem.servername}} {{litem.servercontent}}</div>
-                  </div> -->
-                  <div class="col-md-12" *ngFor="let litem of listItems">
-                    <div class="divlisthead">{{litem.type}}</div>
-                    <div class="divlistitem">{{litem.name}} {{litem.content}}</div>
-                  </div>
-                </div>
-              </div>
-          </div>
+               <app-server-search  *ngFor="let litem of listItems" [element]="litem"></app-server-search>
+            </div>
     </div>
   </div>
 </div>
-this.listItems.push(new serverlist(this.listItems.length,this.name,this.content,chkfrom));
